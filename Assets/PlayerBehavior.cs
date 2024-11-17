@@ -14,7 +14,7 @@ public class PlayerBehavior : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
-        _col = GetComponent<CapsuleCollider>(); 
+        _col = GetComponent<CapsuleCollider>();
     }
     void Update()
     {
